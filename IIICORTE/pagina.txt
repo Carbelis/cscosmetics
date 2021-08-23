@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C & S COSMETICS</title>
+    <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/es/img/logo.png">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="header" id="inicio">
+        <div class="container">
+          <div class="navbar">
+            <img src="../vistas/img/captura.png" class="logo" alt="main logo">
+  
+            <ul class="menu">
+                
+              <!-- <li><a href="">Inicio</a></li> -->
+              <li><a href="#servicio">Quienes somos?</a></li>
+              <li><a href="#producto">Productos</a></li>
+              <!-- <li><a href="#marca">Nuestras marcas</a></li> -->
+              <li><a href="vistas/registrar.html">Cuenta</a></li>
+              <li><a href="vistas/carrito.html">Carrito de compra</a></li> 
+              <li><a href="#contacto">Contactanos</a></li> 
+            </ul>
+            
+          </div>
+          
+           <div class="contenedor head">
+            <h1 class="titulo">C & S COSMETICS</h1>
+              <img src="../img/Imagen1.png" class="logo" alt="main logo">
+             <p class="copy">“Debajo del maquillaje y detrás de la sonrisa, soy sólo una chica que se interesa por el
+                mundo”</p> 
+
+        </div>
+        </div>
+    </header>
+
+    <!-- <header class="header" id="inicio">
+        <img src="img/menu.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Quienes somos?</a>
+            <a href="#producto">Productos</a>
+            <a href="#expertos">Nuestras marcas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+
+        <div class="contenedor head">
+            <h1 class="titulo">C & S COSMETICS</h1>
+            <p class="copy">“Debajo del maquillaje y detrás de la sonrisa, soy sólo una chica que se interesa por el
+                mundo”</p>
+
+        </div>
+
+    </header> -->
+    <main>
+        <!-------------------------------------Quienes somos----------------------------------------------------->
+        <section class="services-contenedor" id="servicio">
+            <h2 class="subtitulo">Quienes somos?</h2>
+            <div class="contenedor-servicio-img">
+                <img class="serv" src="../vistas/img/Captura.PNG">
+                <p class="n-service">Somos una tienda virtual en la ciudad de Caracas donde ofrecemos nuestros productos de muy buena calidad a un bajo precio, donde la principal intención es realzar la belleza de una mujer. 
+                    Y recuerda siempre la vida es mucho más bella con un café, pestañas y actitud
+                    Atrévete y descubre la belleza exterior
+                    </p>
+                <div class="checklist-servicio">
+                    <div class="service">
+                        
+                       
+
+                    </div>
+                   
+                </div>
+            </div>
+        </section>
+        <!----------------------------------Producto------------------------------------------------------------------------->
+        <section class="gallery" id="producto">
+            <div class="contenedor">
+                <h2 class="subtitulo"> Productos </h2>
+                <div class="contenedor-galeria">
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto1.jpg" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                    <!-- foto2 -->
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto2.jpg" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                    
+                    <!-- foto 3 -->
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto3.jpg" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                    <!-- foto 4 -->
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto4.png" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                    <!-- foto 5 -->
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto5.jpg" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                    <!-- foto 6 -->
+                    <div class="contenedor-prod">
+                        <div class="contenedor-img">
+                            <img src="../img/producto6.jpg" alt="" class="img-galeria">
+                        </div>
+                        <div class="contendor-descripcion">
+                            <h3 class="descripcion">PALETA SOMBRA 40 TONOS</h3>
+                        </div>
+                        <div class="contenedor-precio">
+                            <h3 class="precio">PRECIO 3</h3>
+                               <a href="#"><i class='bx bx-cart-alt icon'></i></a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!---------------------------------cerrar----------------------------------------------------------------------->
+        <section class="imagen-light">
+            <img src="../img/cerrar.svg" alt="" class="close">
+            <img src="../img/fondo.jpg" alt="" class="agregar-imagen">
+
+        </section>
+
+        <!-----------------------------Marcas------------------------------------------------------------------------>
+        <section class="contenedor" id="marca">
+            <h2 class="subtitulo">Nuestras Marcas</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="../img/marca1.jpg">
+                    
+                </div>
+                <div class="cont-expert">
+                    <img src="../img/marca2.png">
+                    
+                </div>
+                <div class="cont-expert">
+                    <img src="../img/marca3.jpg">
+                    
+                </div>
+                
+            </section>
+        </section>
+
+        <!---------------------------------Contacto----------------------------------------------------------------------->
+        <footer id="contacto">
+            <div class="contenedor-footer-content">
+                <div class="contact-us">
+                    <h2 class="brand">C & S COSMETICS</h2>
+                    <p>Expertos en realzar la belleza natural de la mujer</p>
+                    
+                </div>
+                <div class="social-media">
+                    <a href="https://www.instagram.com/cscosmetics_1/" class="social-media-icon">
+                        <i class='bx bxl-instagram'></i>
+                    </a>
+                    <a href="https://web.whatsapp.com/" class="social-media-icon">
+                        <i class='bx bxl-whatsapp'></i>
+                    </a>
+                    <a href="https://web.telegram.org/k/" class="social-media-icon">
+                        <i class='bx bxl-telegram'></i>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="reserva">
+                <p >Diseño y Desarrollo por Carbelis Torres C&SCOSMETICS C.A © 2021</p>
+            </div>
+        </footer>
+    </main>
+    </body>
+    <script src="../js/menu.js"></script>
+    <script src="../js/fotobox.js"></script>
+
+</html>

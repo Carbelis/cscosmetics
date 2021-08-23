@@ -1,0 +1,49 @@
+body{
+    font-family: cursive;
+    margin: 0;
+    /* background: linear-gradient(to right, #232526, #414345); */
+    background-size: cover;
+    background-attachment: fixed;
+   
+    
+}
+
+.logo{
+    width: 220px;
+    cursor: pointer;
+  }
+
+.subti{
+    display: flex;
+   
+    justify-content: space-evenly;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background: rgb(237, 100, 175);
+  }
+
+.icon{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+.bebe{
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
